@@ -170,9 +170,9 @@ Pass `{ symbol: 'USD' }` instead of `source`/`target` to get the raw published r
 
 ## 🗺️ Currencies covered
 
-National Bank of Georgia currently publishes rates covering **42 currencies** (as of the latest table):
+National Bank of Georgia currently publishes rates covering **42 currencies** against the GEL (as of the latest table):
 
-`AED` · `AMD` · `AUD` · `AZN` · `BRL` · `BYN` · `CAD` · `CHF` · `CNY` · `CZK` · `DKK` · `EGP` · `EUR` · `GBP` · `HKD` · `HUF` · `ILS` · `INR` · `IRR` · `ISK` · `JPY` · `KGS` · `KRW` · `KWD` · `KZT` · `MDL` · `NOK` · `NZD` · `PLN` · `QAR` · `RON` · `RSD` · `RUB` · `SEK` · `SGD` · `TJS` · `TMT` · `TRY` · `UAH` · `USD` · `UZS` · `ZAR`
+🇦🇪 `AED` · 🇦🇲 `AMD` · 🇦🇺 `AUD` · 🇦🇿 `AZN` · 🇧🇷 `BRL` · 🇧🇾 `BYN` · 🇨🇦 `CAD` · 🇨🇭 `CHF` · 🇨🇳 `CNY` · 🇨🇿 `CZK` · 🇩🇰 `DKK` · 🇪🇬 `EGP` · 🇪🇺 `EUR` · 🇬🇧 `GBP` · 🇭🇰 `HKD` · 🇭🇺 `HUF` · 🇮🇱 `ILS` · 🇮🇳 `INR` · 🇮🇷 `IRR` · 🇮🇸 `ISK` · 🇯🇵 `JPY` · 🇰🇬 `KGS` · 🇰🇷 `KRW` · 🇰🇼 `KWD` · 🇰🇿 `KZT` · 🇲🇩 `MDL` · 🇳🇴 `NOK` · 🇳🇿 `NZD` · 🇵🇱 `PLN` · 🇶🇦 `QAR` · 🇷🇴 `RON` · 🇷🇸 `RSD` · 🇷🇺 `RUB` · 🇸🇪 `SEK` · 🇸🇬 `SGD` · 🇹🇯 `TJS` · 🇹🇲 `TMT` · 🇹🇷 `TRY` · 🇺🇦 `UAH` · 🇺🇸 `USD` · 🇺🇿 `UZS` · 🇿🇦 `ZAR`
 
 ## ⚖️ Published vs derived rates
 
