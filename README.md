@@ -85,10 +85,10 @@ const pair = await getRate('USD', 'GEL', { apiKey: 'art_live_...' });
 {
   bank: 'nbg',
   name: 'National Bank of Georgia',
-  rate_date: '2026-09-10',   // National Bank of Georgia's own publication date
+  rate_date: '2026-09-26',   // National Bank of Georgia's own publication date
   source: 'USD',
   target: 'GEL',
-  rate: 2.6104,
+  rate: 2.608,
   rate_type: 'reference',
   derived: false,
   method: 'published',
@@ -113,9 +113,9 @@ console.log(table.rate_date, table.rates.length);
 {
   bank: 'nbg',
   name: 'National Bank of Georgia',
-  rate_date: '2026-09-10',
+  rate_date: '2026-09-26',
   rates: [
-    { "base": "USD", "quote": "GEL", "type": "reference", "value": 2.6104 },
+    { "base": "USD", "quote": "GEL", "type": "reference", "value": 2.608 },
     // … the rest of the published table (42 currencies vs GEL)
   ],
   disclaimer: '…'
@@ -155,7 +155,7 @@ Paid plans. One resolved rate per publication date — ready for charting, reval
 import { getHistory } from 'nbg-exchange-rate';
 
 const series = await getHistory(
-  { source: 'USD', target: 'GEL', from: '2026-01-01', to: '2026-09-10' },
+  { source: 'USD', target: 'GEL', from: '2026-01-01', to: '2026-09-26' },
   { apiKey: 'art_live_...' }
 );
 ```
@@ -168,11 +168,11 @@ const series = await getHistory(
   source: 'USD',
   target: 'GEL',
   from: '2026-01-01',
-  to: '2026-09-10',
+  to: '2026-09-26',
   count: 152,
   rates: [
     // one entry per publication date
-    { date: '2026-09-10', rate: 2.6104, rate_type: 'reference', derived: false, method: 'published' },
+    { date: '2026-09-26', rate: 2.608, rate_type: 'reference', derived: false, method: 'published' },
     // …
   ],
   disclaimer: '…'
