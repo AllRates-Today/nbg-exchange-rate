@@ -4,6 +4,8 @@
 [![license](https://img.shields.io/npm/l/nbg-exchange-rate.svg)](https://github.com/AllRates-Today/nbg-exchange-rate/blob/main/LICENSE)
 [![zero dependencies](https://img.shields.io/badge/dependencies-0-brightgreen.svg)](https://www.npmjs.com/package/nbg-exchange-rate)
 [![TypeScript](https://img.shields.io/badge/TypeScript-types%20included-3178C6.svg)](https://www.typescriptlang.org/)
+[![USD/GEL today](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fallratestoday.com%2Fapi%2Fopen%2Fcentral-bank%2Fnbg%3Fsource%3DUSD%26target%3DGEL&query=%24.rate&label=USD%2FGEL%20published%20by%20National%20Bank%20of%20Georgia&color=0A7E8C&cacheSeconds=3600)](https://allratestoday.com/central-bank-rates-api/nbg/)
+[![rate date](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fallratestoday.com%2Fapi%2Fopen%2Fcentral-bank%2Fnbg%3Fsource%3DUSD%26target%3DGEL&query=%24.rate_date&label=rate%20date&color=555&cacheSeconds=3600)](https://allratestoday.com/central-bank-rates-api/nbg/)
 
 **Official National Bank of Georgia (Georgia) daily exchange rates for Node.js and TypeScript. The published central bank rates behind tax filings, customs valuations, audits, and compliant invoicing — not market estimates, but the numbers National Bank of Georgia itself prints, every business day.**
 
@@ -32,6 +34,61 @@ console.log(r.rate_date, r.rates.length); // the central bank's latest published
 ```
 
 The open endpoint serves the *latest* table only and asks for a visible attribution link. The client below uses the keyed API, which adds point-in-time tables, history, and CSV/XML/Excel output.
+
+## 📈 Latest published table
+
+Today's full National Bank of Georgia table, straight from the central bank's latest publication. On GitHub it is refreshed by [a daily Action](.github/workflows/daily-table.yml) that reads the keyless endpoint above and commits only when the central bank publishes a new table; the copy on npm is as of the package's publish date.
+
+<!-- daily-table:start -->
+Published **2026-10-06** by National Bank of Georgia — 42 rates. Updated 2026-10-08.
+
+| Base | Quote | Type | Rate |
+| --- | --- | --- | ---: |
+| AED | GEL | reference | 0.70874 |
+| AMD | GEL | reference | 0.0071779 |
+| AUD | GEL | reference | 1.8121 |
+| AZN | GEL | reference | 1.5313 |
+| BRL | GEL | reference | 0.4994 |
+| BYN | GEL | reference | 0.8558 |
+| CAD | GEL | reference | 1.8268 |
+| CHF | GEL | reference | 3.1364 |
+| CNY | GEL | reference | 0.38817 |
+| CZK | GEL | reference | 0.11931 |
+| DKK | GEL | reference | 0.39028 |
+| EGP | GEL | reference | 0.04967 |
+| EUR | GEL | reference | 2.9169 |
+| GBP | GEL | reference | 3.443 |
+| HKD | GEL | reference | 0.33173 |
+| HUF | GEL | reference | 0.007925 |
+| ILS | GEL | reference | 0.84922 |
+| INR | GEL | reference | 0.027033 |
+| IRR | GEL | reference | 0.00000149 |
+| ISK | GEL | reference | 0.021259 |
+| JPY | GEL | reference | 0.016479 |
+| KGS | GEL | reference | 0.029749 |
+| KRW | GEL | reference | 0.0019357 |
+| KWD | GEL | reference | 8.4164 |
+| KZT | GEL | reference | 0.005695 |
+| MDL | GEL | reference | 0.14546 |
+| NOK | GEL | reference | 0.27124 |
+| NZD | GEL | reference | 1.456 |
+| PLN | GEL | reference | 0.66549 |
+| QAR | GEL | reference | 0.71411 |
+| RON | GEL | reference | 0.54684 |
+| RSD | GEL | reference | 0.02483 |
+| RUB | GEL | reference | 0.030626 |
+| SEK | GEL | reference | 0.25937 |
+| SGD | GEL | reference | 2.0336 |
+| TJS | GEL | reference | 0.28214 |
+| TMT | GEL | reference | 0.74377 |
+| TRY | GEL | reference | 0.053 |
+| UAH | GEL | reference | 0.05775 |
+| USD | GEL | reference | 2.6032 |
+| UZS | GEL | reference | 0.000221 |
+| ZAR | GEL | reference | 0.1562 |
+
+Source: [Official rates published by NBG, served by AllRatesToday](https://allratestoday.com/central-bank-rates-api/nbg/). Rates are as printed by the central bank; AllRatesToday is not affiliated with it.
+<!-- daily-table:end -->
 
 ## 🔑 Get your API key
 
