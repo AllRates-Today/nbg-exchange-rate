@@ -42,7 +42,7 @@ The open endpoint serves the *latest* table only and asks for a visible attribut
 The image is rendered live from the keyless endpoint above, so it follows the central bank's publications on npm and on GitHub alike without a new release. The text copy below is there for search and copy-paste: on GitHub [a daily Action](.github/workflows/daily-table.yml) refreshes it whenever the central bank publishes a new table; on npm it is as of the package's publish date.
 
 <!-- daily-table:start -->
-Published **2026-10-13** by National Bank of Georgia — 42 rates. Updated 2026-10-13.
+Published **2026-10-13** by National Bank of Georgia — 42 rates. Updated 2026-10-14.
 
 | Base | Quote | Type | Rate |
 | --- | --- | --- | ---: |
@@ -144,10 +144,10 @@ const pair = await getRate('USD', 'GEL', { apiKey: 'art_live_...' });
 {
   bank: 'nbg',
   name: 'National Bank of Georgia',
-  rate_date: '2026-10-10',   // National Bank of Georgia's own publication date
+  rate_date: '2026-10-13',   // National Bank of Georgia's own publication date
   source: 'USD',
   target: 'GEL',
-  rate: 2.6005,
+  rate: 2.5994,
   rate_type: 'reference',
   derived: false,
   method: 'published',
@@ -172,9 +172,9 @@ console.log(table.rate_date, table.rates.length);
 {
   bank: 'nbg',
   name: 'National Bank of Georgia',
-  rate_date: '2026-10-10',
+  rate_date: '2026-10-13',
   rates: [
-    { "base": "USD", "quote": "GEL", "type": "reference", "value": 2.6005 },
+    { "base": "USD", "quote": "GEL", "type": "reference", "value": 2.5994 },
     // … the rest of the published table (42 currencies vs GEL)
   ],
   disclaimer: '…'
@@ -214,7 +214,7 @@ Paid plans. One resolved rate per publication date — ready for charting, reval
 import { getHistory } from 'nbg-exchange-rate';
 
 const series = await getHistory(
-  { source: 'USD', target: 'GEL', from: '2026-01-01', to: '2026-10-10' },
+  { source: 'USD', target: 'GEL', from: '2026-01-01', to: '2026-10-13' },
   { apiKey: 'art_live_...' }
 );
 ```
@@ -227,11 +227,11 @@ const series = await getHistory(
   source: 'USD',
   target: 'GEL',
   from: '2026-01-01',
-  to: '2026-10-10',
+  to: '2026-10-13',
   count: 152,
   rates: [
     // one entry per publication date
-    { date: '2026-10-10', rate: 2.6005, rate_type: 'reference', derived: false, method: 'published' },
+    { date: '2026-10-13', rate: 2.5994, rate_type: 'reference', derived: false, method: 'published' },
     // …
   ],
   disclaimer: '…'
@@ -350,9 +350,9 @@ getRate('USD', 'GEL', { apiKey: 'art_live_...' }).then((pair) => console.log(pai
 
 Need the whole archive rather than an API call? The same published tables are mirrored daily as open data:
 
-- Hugging Face: [AllRates/central-bank-exchange-rates](https://huggingface.co/datasets/AllRates/central-bank-exchange-rates) — one CSV per institution (`rates/nbg.csv`)
+- Hugging Face: [AllRatesToday/central-bank-exchange-rates](https://huggingface.co/datasets/AllRatesToday/central-bank-exchange-rates) — one CSV per institution (`rates/nbg.csv`)
 - Kaggle: [allratestoday/central-bank-exchange-rates](https://www.kaggle.com/datasets/allratestoday/central-bank-exchange-rates)
-- CDN JSON: `https://cdn.jsdelivr.net/gh/AllRates-Today/central-bank-exchange-rates@main/data/nbg/latest.json`
+- Raw JSON on GitHub: `https://raw.githubusercontent.com/AllRates-Today/central-bank-exchange-rates/main/data/nbg/latest.json`
 
 ## 🔗 Links
 
