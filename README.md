@@ -42,52 +42,52 @@ The open endpoint serves the *latest* table only and asks for a visible attribut
 The image is rendered live from the keyless endpoint above, so it follows the central bank's publications on npm and on GitHub alike without a new release. The text copy below is there for search and copy-paste: on GitHub [a daily Action](.github/workflows/daily-table.yml) refreshes it whenever the central bank publishes a new table; on npm it is as of the package's publish date.
 
 <!-- daily-table:start -->
-Published **2026-10-14** by National Bank of Georgia — 42 rates. Updated 2026-10-14.
+Published **2026-10-16** by National Bank of Georgia — 42 rates. Updated 2026-10-16.
 
 | Base | Quote | Type | Rate |
 | --- | --- | --- | ---: |
-| AED | GEL | reference | 0.70757 |
-| AMD | GEL | reference | 0.007169 |
-| AUD | GEL | reference | 1.8122 |
-| AZN | GEL | reference | 1.529 |
-| BRL | GEL | reference | 0.5211 |
-| BYN | GEL | reference | 0.8632 |
-| CAD | GEL | reference | 1.8228 |
-| CHF | GEL | reference | 3.1214 |
-| CNY | GEL | reference | 0.38822 |
-| CZK | GEL | reference | 0.11935 |
-| DKK | GEL | reference | 0.38892 |
-| EGP | GEL | reference | 0.04922 |
-| EUR | GEL | reference | 2.9074 |
-| GBP | GEL | reference | 3.4415 |
-| HKD | GEL | reference | 0.33115 |
-| HUF | GEL | reference | 0.007985 |
-| ILS | GEL | reference | 0.84479 |
-| INR | GEL | reference | 0.027276 |
+| AED | GEL | reference | 0.70751 |
+| AMD | GEL | reference | 0.0071738 |
+| AUD | GEL | reference | 1.7983 |
+| AZN | GEL | reference | 1.5288 |
+| BRL | GEL | reference | 0.5168 |
+| BYN | GEL | reference | 0.8629 |
+| CAD | GEL | reference | 1.8294 |
+| CHF | GEL | reference | 3.1295 |
+| CNY | GEL | reference | 0.38832 |
+| CZK | GEL | reference | 0.11961 |
+| DKK | GEL | reference | 0.38967 |
+| EGP | GEL | reference | 0.04851 |
+| EUR | GEL | reference | 2.9129 |
+| GBP | GEL | reference | 3.4435 |
+| HKD | GEL | reference | 0.33116 |
+| HUF | GEL | reference | 0.008011 |
+| ILS | GEL | reference | 0.83753 |
+| INR | GEL | reference | 0.027339 |
 | IRR | GEL | reference | 0.00000146 |
-| ISK | GEL | reference | 0.021346 |
-| JPY | GEL | reference | 0.016436 |
-| KGS | GEL | reference | 0.029704 |
-| KRW | GEL | reference | 0.0019386 |
-| KWD | GEL | reference | 8.3298 |
-| KZT | GEL | reference | 0.005793 |
-| MDL | GEL | reference | 0.14458 |
-| NOK | GEL | reference | 0.27212 |
-| NZD | GEL | reference | 1.4575 |
-| PLN | GEL | reference | 0.66412 |
-| QAR | GEL | reference | 0.71293 |
-| RON | GEL | reference | 0.54468 |
-| RSD | GEL | reference | 0.02476 |
-| RUB | GEL | reference | 0.030926 |
-| SEK | GEL | reference | 0.26004 |
-| SGD | GEL | reference | 2.0304 |
-| TJS | GEL | reference | 0.28166 |
-| TMT | GEL | reference | 0.74254 |
+| ISK | GEL | reference | 0.021355 |
+| JPY | GEL | reference | 0.016467 |
+| KGS | GEL | reference | 0.029707 |
+| KRW | GEL | reference | 0.0019324 |
+| KWD | GEL | reference | 8.3533 |
+| KZT | GEL | reference | 0.005727 |
+| MDL | GEL | reference | 0.14491 |
+| NOK | GEL | reference | 0.27294 |
+| NZD | GEL | reference | 1.4571 |
+| PLN | GEL | reference | 0.66678 |
+| QAR | GEL | reference | 0.71279 |
+| RON | GEL | reference | 0.54585 |
+| RSD | GEL | reference | 0.0248 |
+| RUB | GEL | reference | 0.03102 |
+| SEK | GEL | reference | 0.26041 |
+| SGD | GEL | reference | 2.0261 |
+| TJS | GEL | reference | 0.28194 |
+| TMT | GEL | reference | 0.74249 |
 | TRY | GEL | reference | 0.0526 |
-| UAH | GEL | reference | 0.05762 |
-| USD | GEL | reference | 2.5989 |
-| UZS | GEL | reference | 0.0002183 |
-| ZAR | GEL | reference | 0.1576 |
+| UAH | GEL | reference | 0.05788 |
+| USD | GEL | reference | 2.5987 |
+| UZS | GEL | reference | 0.0002164 |
+| ZAR | GEL | reference | 0.15733 |
 
 Source: [Official rates published by NBG, served by AllRatesToday](https://allratestoday.com/central-bank-rates-api/nbg/). Rates are as printed by the central bank; AllRatesToday is not affiliated with it.
 <!-- daily-table:end -->
@@ -281,7 +281,7 @@ curl "https://allratestoday.com/api/v1/central-bank/nbg/latest?format=xml&api_ke
 - MCP server: `npx -y @allratestoday/central-bank-mcp` (stdio) or the hosted endpoint `https://allratestoday.com/api/mcp` — tools for official rates, history, cross-bank comparison and publication calendars
 - Already using the general SDK or MCP server? Since 2026-10-01 [`@allratestoday/sdk`](https://www.npmjs.com/package/@allratestoday/sdk) 1.4+ has `officialRates('nbg')` and [`@allratestoday/mcp-server`](https://www.npmjs.com/package/@allratestoday/mcp-server) 0.6+ has a `get_official_rates` tool — both return this source's latest table with no key, so you can add it without a second dependency
 - Claude Code plugin (no key): `/plugin marketplace add AllRates-Today/claude-code-plugin` then `/plugin install allratestoday@allratestoday` — bundles both MCP servers plus an `/official-rate nbg ...` command
-- Need dated tables or history for an evaluation? Agents can self-issue a trial key with no signup: `POST https://allratestoday.com/api/agent/keys` (send `Content-Type: application/json`) returns a 100-call key valid 7 days; the MCP servers expose it as `request_trial_key`
+- Evaluating? Agents can self-issue a trial key with no signup: `POST https://allratestoday.com/api/agent/keys` (send `Content-Type: application/json`) returns a 100-call key valid 7 days that covers the free-plan methods (latest table, pairs); dated tables and history need a [paid plan](https://allratestoday.com/pricing/). The MCP servers expose it as `request_trial_key`
 - Machine-readable site guide: [llms.txt](https://allratestoday.com/llms.txt) · [for-ai-agents](https://allratestoday.com/for-ai-agents/)
 
 ## ⚖️ Published vs derived rates
