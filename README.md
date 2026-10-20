@@ -20,6 +20,10 @@
 
 > **Official rate, not mid-market:** every value here is a number National Bank of Georgia itself published, fixed once printed and carrying the central bank's own `rate_date` — what filings and audits require. Need the live mid-market rate for pricing or display instead? Use the [mid-market API](https://allratestoday.com/docs/) or [`@allratestoday/sdk`](https://www.npmjs.com/package/@allratestoday/sdk). The two can diverge by several percent.
 
+## 🔑 Get your API key
+
+Get a free API key at [allratestoday.com/register](https://allratestoday.com/register) — no credit card required. Latest rates are on every plan, including free.
+
 ## ⚡ Try it without a key
 
 The latest National Bank of Georgia table is also served keyless, CORS-open and edge-cached, for evaluation, embeds and AI agents:
@@ -43,61 +47,57 @@ The image is rendered live from the keyless endpoint above, so it follows the ce
 
 <!-- daily-table:start -->
 <details>
-<summary>Table as text: published 2026-10-17 by National Bank of Georgia — 42 rates. Updated 2026-10-19.</summary>
+<summary>Table as text: published 2026-10-20 by National Bank of Georgia — 42 rates. Updated 2026-10-20.</summary>
 
 | Base | Quote | Type | Rate |
 | --- | --- | --- | ---: |
-| AED | GEL | reference | 0.70738 |
-| AMD | GEL | reference | 0.0071823 |
-| AUD | GEL | reference | 1.8096 |
+| AED | GEL | reference | 0.7073 |
+| AMD | GEL | reference | 0.0071739 |
+| AUD | GEL | reference | 1.8146 |
 | AZN | GEL | reference | 1.5284 |
-| BRL | GEL | reference | 0.5098 |
-| BYN | GEL | reference | 0.8643 |
-| CAD | GEL | reference | 1.8361 |
-| CHF | GEL | reference | 3.1589 |
-| CNY | GEL | reference | 0.38854 |
-| CZK | GEL | reference | 0.12035 |
-| DKK | GEL | reference | 0.39161 |
-| EGP | GEL | reference | 0.04861 |
-| EUR | GEL | reference | 2.9274 |
-| GBP | GEL | reference | 3.4676 |
-| HKD | GEL | reference | 0.33105 |
-| HUF | GEL | reference | 0.008057 |
-| ILS | GEL | reference | 0.84114 |
-| INR | GEL | reference | 0.027362 |
+| BRL | GEL | reference | 0.5131 |
+| BYN | GEL | reference | 0.8724 |
+| CAD | GEL | reference | 1.8441 |
+| CHF | GEL | reference | 3.1486 |
+| CNY | GEL | reference | 0.38884 |
+| CZK | GEL | reference | 0.11964 |
+| DKK | GEL | reference | 0.38968 |
+| EGP | GEL | reference | 0.04819 |
+| EUR | GEL | reference | 2.9128 |
+| GBP | GEL | reference | 3.4633 |
+| HKD | GEL | reference | 0.33102 |
+| HUF | GEL | reference | 0.00802 |
+| ILS | GEL | reference | 0.83545 |
+| INR | GEL | reference | 0.027368 |
 | IRR | GEL | reference | 0.00000146 |
-| ISK | GEL | reference | 0.021494 |
-| JPY | GEL | reference | 0.016455 |
-| KGS | GEL | reference | 0.029701 |
-| KRW | GEL | reference | 0.0019519 |
-| KWD | GEL | reference | 8.3597 |
-| KZT | GEL | reference | 0.005741 |
-| MDL | GEL | reference | 0.14493 |
-| NOK | GEL | reference | 0.27536 |
-| NZD | GEL | reference | 1.4737 |
-| PLN | GEL | reference | 0.67021 |
-| QAR | GEL | reference | 0.71264 |
-| RON | GEL | reference | 0.54859 |
-| RSD | GEL | reference | 0.024924 |
-| RUB | GEL | reference | 0.030935 |
-| SEK | GEL | reference | 0.26279 |
-| SGD | GEL | reference | 2.0319 |
-| TJS | GEL | reference | 0.28152 |
-| TMT | GEL | reference | 0.74234 |
-| TRY | GEL | reference | 0.0525 |
-| UAH | GEL | reference | 0.05791 |
-| USD | GEL | reference | 2.5982 |
-| UZS | GEL | reference | 0.0002158 |
-| ZAR | GEL | reference | 0.15826 |
+| ISK | GEL | reference | 0.021385 |
+| JPY | GEL | reference | 0.016421 |
+| KGS | GEL | reference | 0.029698 |
+| KRW | GEL | reference | 0.0019538 |
+| KWD | GEL | reference | 8.3588 |
+| KZT | GEL | reference | 0.005746 |
+| MDL | GEL | reference | 0.14502 |
+| NOK | GEL | reference | 0.27599 |
+| NZD | GEL | reference | 1.4722 |
+| PLN | GEL | reference | 0.66647 |
+| QAR | GEL | reference | 0.71271 |
+| RON | GEL | reference | 0.54697 |
+| RSD | GEL | reference | 0.024801 |
+| RUB | GEL | reference | 0.031404 |
+| SEK | GEL | reference | 0.26233 |
+| SGD | GEL | reference | 2.0307 |
+| TJS | GEL | reference | 0.28148 |
+| TMT | GEL | reference | 0.74226 |
+| TRY | GEL | reference | 0.0524 |
+| UAH | GEL | reference | 0.05768 |
+| USD | GEL | reference | 2.5979 |
+| UZS | GEL | reference | 0.0002156 |
+| ZAR | GEL | reference | 0.15802 |
 
 </details>
 
 Source: [Official rates published by NBG, served by AllRatesToday](https://allratestoday.com/central-bank-rates-api/nbg/). Rates are as printed by the central bank; AllRatesToday is not affiliated with it.
 <!-- daily-table:end -->
-
-## 🔑 Get your API key
-
-Get a free API key at [allratestoday.com/register](https://allratestoday.com/register) — no credit card required. Latest rates are on every plan, including free.
 
 ## 📦 Installation
 
