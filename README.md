@@ -47,52 +47,52 @@ The image is rendered live from the keyless endpoint above, so it follows the ce
 
 <!-- daily-table:start -->
 <details>
-<summary>Table as text: published 2026-10-22 by National Bank of Georgia — 42 rates. Updated 2026-10-22.</summary>
+<summary>Table as text: published 2026-10-23 by National Bank of Georgia — 42 rates. Updated 2026-10-23.</summary>
 
 | Base | Quote | Type | Rate |
 | --- | --- | --- | ---: |
-| AED | GEL | reference | 0.70721 |
-| AMD | GEL | reference | 0.0071731 |
-| AUD | GEL | reference | 1.8266 |
-| AZN | GEL | reference | 1.5283 |
-| BRL | GEL | reference | 0.5166 |
-| BYN | GEL | reference | 0.8764 |
-| CAD | GEL | reference | 1.8496 |
-| CHF | GEL | reference | 3.1482 |
-| CNY | GEL | reference | 0.38909 |
-| CZK | GEL | reference | 0.12015 |
-| DKK | GEL | reference | 0.39018 |
-| EGP | GEL | reference | 0.04776 |
-| EUR | GEL | reference | 2.9163 |
-| GBP | GEL | reference | 3.4784 |
-| HKD | GEL | reference | 0.33103 |
-| HUF | GEL | reference | 0.007982 |
-| ILS | GEL | reference | 0.83994 |
-| INR | GEL | reference | 0.027497 |
+| AED | GEL | reference | 0.70713 |
+| AMD | GEL | reference | 0.0071737 |
+| AUD | GEL | reference | 1.8215 |
+| AZN | GEL | reference | 1.5281 |
+| BRL | GEL | reference | 0.517 |
+| BYN | GEL | reference | 0.8795 |
+| CAD | GEL | reference | 1.8515 |
+| CHF | GEL | reference | 3.1624 |
+| CNY | GEL | reference | 0.38921 |
+| CZK | GEL | reference | 0.12012 |
+| DKK | GEL | reference | 0.38979 |
+| EGP | GEL | reference | 0.04703 |
+| EUR | GEL | reference | 2.9137 |
+| GBP | GEL | reference | 3.4762 |
+| HKD | GEL | reference | 0.33126 |
+| HUF | GEL | reference | 0.007964 |
+| ILS | GEL | reference | 0.83749 |
+| INR | GEL | reference | 0.02739 |
 | IRR | GEL | reference | 0.00000142 |
-| ISK | GEL | reference | 0.021411 |
-| JPY | GEL | reference | 0.016431 |
-| KGS | GEL | reference | 0.029695 |
-| KRW | GEL | reference | 0.0019597 |
-| KWD | GEL | reference | 8.3713 |
-| KZT | GEL | reference | 0.005809 |
-| MDL | GEL | reference | 0.14466 |
-| NOK | GEL | reference | 0.27757 |
-| NZD | GEL | reference | 1.4783 |
-| PLN | GEL | reference | 0.66807 |
-| QAR | GEL | reference | 0.71261 |
-| RON | GEL | reference | 0.54674 |
-| RSD | GEL | reference | 0.024823 |
-| RUB | GEL | reference | 0.031581 |
-| SEK | GEL | reference | 0.26248 |
-| SGD | GEL | reference | 2.0332 |
-| TJS | GEL | reference | 0.28156 |
-| TMT | GEL | reference | 0.74217 |
-| TRY | GEL | reference | 0.0524 |
-| UAH | GEL | reference | 0.05767 |
-| USD | GEL | reference | 2.5976 |
-| UZS | GEL | reference | 0.0002164 |
-| ZAR | GEL | reference | 0.15824 |
+| ISK | GEL | reference | 0.021393 |
+| JPY | GEL | reference | 0.016549 |
+| KGS | GEL | reference | 0.029691 |
+| KRW | GEL | reference | 0.0019628 |
+| KWD | GEL | reference | 8.3703 |
+| KZT | GEL | reference | 0.005799 |
+| MDL | GEL | reference | 0.14437 |
+| NOK | GEL | reference | 0.27742 |
+| NZD | GEL | reference | 1.4753 |
+| PLN | GEL | reference | 0.66714 |
+| QAR | GEL | reference | 0.71251 |
+| RON | GEL | reference | 0.54485 |
+| RSD | GEL | reference | 0.024801 |
+| RUB | GEL | reference | 0.031869 |
+| SEK | GEL | reference | 0.26197 |
+| SGD | GEL | reference | 2.0336 |
+| TJS | GEL | reference | 0.28149 |
+| TMT | GEL | reference | 0.74209 |
+| TRY | GEL | reference | 0.0523 |
+| UAH | GEL | reference | 0.05764 |
+| USD | GEL | reference | 2.5973 |
+| UZS | GEL | reference | 0.0002184 |
+| ZAR | GEL | reference | 0.15758 |
 
 </details>
 
