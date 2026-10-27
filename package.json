@@ -1,6 +1,6 @@
 {
   "name": "nbg-exchange-rate",
-  "version": "1.3.18",
+  "version": "1.3.19",
   "description": "Official National Bank of Georgia (Georgia) daily exchange rates — 42 currencies vs GEL, history since 2016. Zero-dependency Node.js/TypeScript client.",
   "keywords": [
     "nbg",
@@ -27,7 +27,17 @@
     "central-bank",
     "official-rates",
     "api",
-    "typescript"
+    "typescript",
+    "money",
+    "convert",
+    "conversion",
+    "exchange",
+    "rate",
+    "accounting",
+    "utilities",
+    "number",
+    "cart",
+    "ecommerce"
   ],
   "homepage": "https://allratestoday.com/central-bank-rates-api/nbg/",
   "repository": {
