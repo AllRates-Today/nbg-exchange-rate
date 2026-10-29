@@ -47,52 +47,52 @@ The image is rendered live from the keyless endpoint above, so it follows the ce
 
 <!-- daily-table:start -->
 <details>
-<summary>Table as text: published 2026-10-28 by National Bank of Georgia — 42 rates. Updated 2026-10-28.</summary>
+<summary>Table as text: published 2026-10-29 by National Bank of Georgia — 42 rates. Updated 2026-10-29.</summary>
 
 | Base | Quote | Type | Rate |
 | --- | --- | --- | ---: |
-| AED | GEL | reference | 0.70678 |
-| AMD | GEL | reference | 0.0071736 |
-| AUD | GEL | reference | 1.826 |
-| AZN | GEL | reference | 1.5271 |
-| BRL | GEL | reference | 0.4794 |
-| BYN | GEL | reference | 0.8848 |
-| CAD | GEL | reference | 1.8523 |
-| CHF | GEL | reference | 3.1338 |
-| CNY | GEL | reference | 0.38937 |
-| CZK | GEL | reference | 0.11887 |
-| DKK | GEL | reference | 0.3872 |
-| EGP | GEL | reference | 0.04618 |
-| EUR | GEL | reference | 2.8943 |
-| GBP | GEL | reference | 3.4571 |
-| HKD | GEL | reference | 0.33092 |
-| HUF | GEL | reference | 0.007887 |
-| ILS | GEL | reference | 0.8497 |
-| INR | GEL | reference | 0.027292 |
+| AED | GEL | reference | 0.7067 |
+| AMD | GEL | reference | 0.0071977 |
+| AUD | GEL | reference | 1.8243 |
+| AZN | GEL | reference | 1.5272 |
+| BRL | GEL | reference | 0.4854 |
+| BYN | GEL | reference | 0.8829 |
+| CAD | GEL | reference | 1.8469 |
+| CHF | GEL | reference | 3.1255 |
+| CNY | GEL | reference | 0.38932 |
+| CZK | GEL | reference | 0.11847 |
+| DKK | GEL | reference | 0.38631 |
+| EGP | GEL | reference | 0.04624 |
+| EUR | GEL | reference | 2.8875 |
+| GBP | GEL | reference | 3.4463 |
+| HKD | GEL | reference | 0.33087 |
+| HUF | GEL | reference | 0.007864 |
+| ILS | GEL | reference | 0.83367 |
+| INR | GEL | reference | 0.027257 |
 | IRR | GEL | reference | 0.0000014 |
-| ISK | GEL | reference | 0.021218 |
-| JPY | GEL | reference | 0.016467 |
-| KGS | GEL | reference | 0.02968 |
-| KRW | GEL | reference | 0.0019551 |
-| KWD | GEL | reference | 8.3419 |
-| KZT | GEL | reference | 0.00568 |
-| MDL | GEL | reference | 0.14426 |
-| NOK | GEL | reference | 0.27884 |
-| NZD | GEL | reference | 1.4797 |
-| PLN | GEL | reference | 0.65723 |
-| QAR | GEL | reference | 0.71213 |
-| RON | GEL | reference | 0.54102 |
-| RSD | GEL | reference | 0.024626 |
-| RUB | GEL | reference | 0.032175 |
+| ISK | GEL | reference | 0.0212 |
+| JPY | GEL | reference | 0.016438 |
+| KGS | GEL | reference | 0.029684 |
+| KRW | GEL | reference | 0.0019388 |
+| KWD | GEL | reference | 8.3436 |
+| KZT | GEL | reference | 0.005691 |
+| MDL | GEL | reference | 0.14389 |
+| NOK | GEL | reference | 0.27839 |
+| NZD | GEL | reference | 1.4541 |
+| PLN | GEL | reference | 0.65508 |
+| QAR | GEL | reference | 0.71205 |
+| RON | GEL | reference | 0.53966 |
+| RSD | GEL | reference | 0.024567 |
+| RUB | GEL | reference | 0.03223 |
 | SEK | GEL | reference | 0.26106 |
-| SGD | GEL | reference | 2.0265 |
-| TJS | GEL | reference | 0.28186 |
-| TMT | GEL | reference | 0.74171 |
+| SGD | GEL | reference | 2.0241 |
+| TJS | GEL | reference | 0.28181 |
+| TMT | GEL | reference | 0.74163 |
 | TRY | GEL | reference | 0.0521 |
-| UAH | GEL | reference | 0.05694 |
-| USD | GEL | reference | 2.596 |
-| UZS | GEL | reference | 0.000218 |
-| ZAR | GEL | reference | 0.15595 |
+| UAH | GEL | reference | 0.05693 |
+| USD | GEL | reference | 2.5957 |
+| UZS | GEL | reference | 0.0002159 |
+| ZAR | GEL | reference | 0.15572 |
 
 </details>
 
@@ -257,6 +257,7 @@ The National Bank of Georgia publishes the official lari exchange rate for aroun
 
 - Publisher's own page: [Official exchange rates](https://nbg.gov.ge/en/monetary-policy/currency) · [nbg.gov.ge](https://nbg.gov.ge)
 - Publication: every business day; the exact schedule, freshness status and any current delay are on the [National Bank of Georgia rates page](https://allratestoday.com/central-bank-rates-api/nbg/)
+- In the API: usually by **15:25 UTC** (measured over the last 10 publications). Schedule a sync at or after that time and retry hourly until `rate_date` moves; every response carries the same figure as `available_by_utc` — see [when to poll](https://allratestoday.com/docs/#when-to-poll)
 - Values are stored unmodified, with the publisher's own `rate_date` on every row — see the [methodology](https://allratestoday.com/official-rates-methodology/)
 
 ## 🧭 Reading the numbers
